@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LOKO GAME</string>
+    <string name="but">Button</string>
+    <string name="butt">Button</string>
+    <string name="butto">Button</string>
+    <string name="button">Button</string>
+    <string name="use_healing_potion">USE HEALING POTION</string>
+    <string name="textview">TextView</string>
+</resources>
