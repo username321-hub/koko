@@ -13,10 +13,6 @@ class Main2Activity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
     }
-    fun name () {
-        for (a in 0..myArray.size - 1){
-            sum = sum + myArray[a]
-            myArray[a] = uio.text.toString().toInt()
+
         }
-    }
-}
+

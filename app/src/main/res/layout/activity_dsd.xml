@@ -11,16 +11,33 @@
         android:layout_height="match_parent"
         android:orientation="horizontal">
 
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="480dp"
+            android:layout_weight="1"
+            android:background="#FFE700"
+            android:text="🄲🄻🄸🄲🄺 🄸🄵 🅈🄾🅄 🅆🄰🄽🅃 🅃🄾 🅂🄴🄴 🄷🄾🅆 🄼🄰🄽🅈 🄲🄾🄸🄽🅂 🅈🄾🅄 🄷🄰🅅🄴"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:onClick="change"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="TextView"
+            android:text=""
             android:textColor="#FF0D00"
-            android:textSize="30sp"
-            tools:text="🅈🄾🅄 🄷🄰🅅🄴 🅇 🄲🄾🄸🄽🅂" />
+            android:textSize="30sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -30,9 +47,9 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="70dp"
+            android:layout_width="0dp"
+            android:layout_height="350dp"
+            android:layout_marginTop="90dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/pip" />
     </LinearLayout>
@@ -46,13 +63,17 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="420dp"
             android:layout_marginRight="0dp"
             android:layout_weight="1"
             android:background="#FFDE00"
-            android:text="BUY FOR 30 COINS?"
-            android:textSize="30dp" />
+            android:text="🄱🅄🅈 🄵🄾🅁 30 🄲🄾🄸🄽🅂"
+            android:textSize="30sp"
+            android:layout_marginEnd="0dp"
+            android:onClick="buy"
+            />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

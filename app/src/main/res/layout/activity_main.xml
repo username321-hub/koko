@@ -11,13 +11,30 @@
         android:layout_height="match_parent"
         android:orientation="horizontal">
 
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:layout_weight="1"
+            android:background="#FF0D00"
+            android:text="@string/button"
+            android:textSize="30sp"
+            tools:text="🄰🅃🅃🄰🄲🄺" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="MR ROFL IN FURY"
+            android:text="🄼🅁 🅁🄾🄵🄻 🄸🄽 🄵🅄🅁🅈"
             android:textColor="#FF0A00"
             android:textSize="30sp" />
     </LinearLayout>
@@ -48,9 +65,10 @@
             android:layout_marginTop="600dp"
             android:layout_weight="1"
             android:background="#FFE400"
-            android:text="SHOP"
+            android:onClick="gg"
+            android:text="🅂🄷🄾🄿"
             android:textColor="#000000"
-            android:onClick="gg"/>
+            android:textSize="30sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -65,8 +83,8 @@
             android:layout_marginTop="550dp"
             android:layout_weight="1"
             android:background="#8AFF00"
-
-            android:text="@string/use_healing_potion" />
+            android:textSize="30sp"
+            android:text="🅄🅂🄴 🄰 🄿🄾🅃🄸🄾🄽" />
     </LinearLayout>
 
     <LinearLayout
@@ -78,15 +96,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="500dp"
-            android:layout_weight="1"
-            android:background="#FF0D00"
-            android:text="@string/button"
-            tools:text="ATACK" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
