@@ -10,15 +10,18 @@ class Main3Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main3)
-    }
-    fun change2 (){
-        var next: Intent = Intent(this, Main2Activity::class.java)
-        startActivity(next)
-    }
-
-    fun main() {
-        Thread.sleep(500);change2()
 
     }
 
+    override fun onResume() {
+        super.onResume()
+        next()
+    }
+
+    fun next(){
+        Thread.sleep(1000)
+
+    var next: Intent = Intent(this, Main2Activity::class.java)
+    startActivity(next)
+    };
 }
